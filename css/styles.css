@@ -130,14 +130,27 @@ h3 ~ p {
 /* Education
 -------------------------*/
 .education {
-  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
-              url(../images/toronto.jpg) no-repeat fixed;
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5))
   background-size: cover;
 }
 p + h3 {
   margin-top: 30px;
 }
 
+/* Project Experience
+-------------------------*/
+.projects {
+  background: #EDF2F4;
+}
+h3 ~ p {
+  margin: 0;
+}
+.project-description {
+  margin-bottom: 25px;
+}
+.project-description p:first-of-type {
+  margin-top: 0;
+}
 
 
 /* Media Queries

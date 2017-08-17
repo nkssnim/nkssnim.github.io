@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NKSS | Resume</title>
+  <title>NKSS</title>
   <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -14,24 +14,120 @@
   <header id="about">
     <nav>
       <a href="#about">About</a>
+      <a href="#projects">Projects</a>
       <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </nav>
     <div class="content-wrap">
       <img class="profile-img col-narrow" src="images/doggo.jpg" alt="NotMe">
       <div class="col-wide">
-        <h1>Faez (nkss)</h1>
+        <h1>NKSS (Faez)</h1>
         <h2>Game developer|Web developer</h2>
         <p>
           I make games in Unity &amp; Unreal Engine 4. I've also made games in C++ with OpenGL. <br/>
-          I have experience with front-end &amp; back-end web development with PHP, which includes experience developing a CMS with PHP &amp; MySQL. <br/>
-          <br/>I go by several aliases online - mainly nkss, nkssnim and nyangkosense. Nyangkosense is a name I stole from a Starcraft player, it has no inherent meaning.
+          I have experience as a full-stack web developer working with HTML, CSS, Javascript &amp; PHP. <br/>
+          <br/>I go by several aliases online - mainly nkss, nkssnim &amp; nyangkosense. Nyangkosense is a name I stole from a Starcraft player, not knowing what
+          it originally meant. I found out that it was a reference to the fat cat from Natsume's Book of Friends. I also go by 'Fat Cat' as a coincidence from this.
         </p>
       </div>
     </div>
   </header>
 
   <main>
+
+    <!--// Projects  -->
+    <section id="projects" class="projects">
+      <div class="content-wrap">
+        <h2>Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="col-narrow">
+          <h3>Professional Table-setting VR Simulation</h3>
+          <p>Temasek Polytechnic</p>
+          <p>July 2017 - Present</p>
+        </div>
+
+        <div class="col-wide project-description">
+          <p>VR simulation built for the HTC Vive to train culinary students in proper fine-dining table preparation.</p>
+          <p>
+            Targeted at the students of Temasek Culinary Academy in Temasek Polytechnic as part of their course in Culinary &amp; Catering Management.
+            The simulation involves preparing a dining table for seating by guests in a fine-dining restaurant. The students are timed and have to complete
+            the procedure within a specified time limit in order to demonstrate their aptitude.
+          </p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-narrow">
+          <h3>Content Management System for a Fictional Banking Company</h3>
+          <p>Personal</p>
+          <p>July 2017 - August 2017</p>
+        </div>
+
+        <div class="col-wide project-description">
+          <p>A content management system I made on my own after picking up enough web development by myself.</p>
+          <p>
+            The CMS manages the pages of a fictonal banking company - allowing the user to edit, hide or delete the pages. It also makes use of user authentication &amp; password encryption for
+            admin accounts that can access the CMS. The CMS runs on PHP &amp; uses MySQL to store the database containing the page data &amp; admin accounts that can access the CMS.
+          </p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-narrow">
+          <h3>Robo Conflict - An Augmented Reality Turn-Based Strategy Game (Tech Demo)</h3>
+          <p>Temasek Polytechnic</p>
+          <p>April 2017 - June 2017</p>
+        </div>
+
+        <div class="col-wide project-description">
+          <p>An augmented reality (AR) game for Android that features player vs AI gameplay &amp; makes use of AR marker manipulation to do cool things in the game.</p>
+          <p>
+            Robo Conflict is a turn-based strategy game where the player controls a team of robots against a team of AI robots on a hexagonal grid, and has to destroy the enemy team to win.
+            The AI makes use of behaviour trees for decision-making, A* pathfinding &amp; Minimax algorithm.
+            The main highlight of the game is a feature which lets the player tilt the AR marker to causes all the robots on the grid to fall towards the direction the marker was tilted to.
+          </p>
+          <p> The project was created to demonstrate the feasibility of AR marker manipulation as a part of main gameplay mechanics &amp; to showcase our AI design. </p>
+        </div>
+
+        <!-- Project 4-->
+        <div class="col-narrow">
+          <h3>Devil Dice Redux - A recreation in OpenGL</h3>
+          <p>Temasek Polytechnic</p>
+          <p>January 2017 - February 2017</p>
+        </div>
+
+        <div class="col-wide project-description">
+          <p>A recreation of Devil Dice in OpenGL</p>
+          <p>
+            The game mimics the mechanics of <a href="https://en.wikipedia.org/wiki/Devil_Dice">Devil Dice</a>, with additional features such as terrain generated from a height-map &amp; a particle emitter.
+          </p>
+          <p>
+            The project was created to demonstrate my skills in graphics programming. It was written in C++ using the freeGLUT library and makes use of computer graphics fundamentals
+            such as working with vectors, matrices for 3D transformations, lighting &amp; billboarding.
+          </p>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-narrow">
+          <h3>Kaijuu Trainer - A Location-Based Digital Pet RPG for Temasek Polytechnic</h3>
+          <p>Temasek Polytechnic</p>
+          <p>December 2016 - February 2017</p>
+        </div>
+
+        <div class="col-wide project-description">
+          <p>A Location-based game for Android that uses GPS tracking &amp; QR code scanning for players to collect &amp; pets and pit them against monsters encountered around Temasek Polytechnic</p>
+          <p>
+            Kaijuu Trainer is a game created to promote exercising for students at Temasek Polytechnic. It intended to accomplish this by having them walk around the campus to collect digital pets &amp;
+            randomly encounter different types of monsters in different parts of the campus. They would battle these monsters with their pets to make them stronger. Located in different parts of the campus
+            would also be QR codes which can be scanned to heal their pets &amp; battle stronger boss monsters which drop eggs that hatch into new pets.
+          </p>
+          <p>
+            <b>The project earned a distinction &amp; is showcased as one of the best mobile games created in the Game Design &amp; Development Course in Temasek Polytechnic.</b>
+          </p>
+        </div>
+
+    </section>
+
+
     <!-- // Education -->
     <section id="education" class="education">
       <div class="content-wrap">
@@ -40,8 +136,9 @@
         <!-- School 1 details. -->
         <h3>Temasek Polytechnic, Singapore</h3>
         <p>Game Design &amp; Development, 2018</p>
-        <p>I'm currently studying here.</p>
+        <p>Student since 2015 - Present</p>
     </section>
+
   </main>
 
 
