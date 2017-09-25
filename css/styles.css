@@ -131,7 +131,7 @@ h3 ~ p {
 -------------------------*/
 .education {
   background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5))
-  background-size: cover;
+  background-size: contain;
 }
 p + h3 {
   margin-top: 30px;
@@ -152,6 +152,16 @@ h3 ~ p {
   margin-top: 0;
 }
 
+/* Interests
+-------------------------*/
+
+.interests {
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(138, 119, 76, 0.5))
+}
+
+.interests-description li {
+  margin-bottom: 1.5rem;
+}
 
 /* Media Queries
 -------------------------*/
