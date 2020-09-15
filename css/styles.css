@@ -140,7 +140,7 @@ p + h3 {
 /* Project Experience
 -------------------------*/
 .projects {
-  background: #EDF2F4;
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(138, 119, 76, 0.5));
 }
 h3 ~ p {
   margin: 0;
