@@ -148,6 +148,9 @@ h3 ~ p {
 .project-description {
   margin-bottom: 25px;
 }
+a {
+  color:#42ddf5
+}
 .project-description p:first-of-type {
   margin-top: 0;
 }
