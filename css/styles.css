@@ -116,6 +116,10 @@ nav a {
 .work {
   background: #EDF2F4;
 }
+li {
+  line-height: 1.5;
+}
+
 h3 ~ p {
   margin: 0;
 }
@@ -124,9 +128,6 @@ h3 ~ p {
 }
 .job-description p:first-of-type {
   margin-top: 0;
-}
-li {
-  margin: 5px;
 }
 
 
