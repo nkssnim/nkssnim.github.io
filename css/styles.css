@@ -125,7 +125,7 @@ h3 ~ p {
 .job-description p:first-of-type {
   margin-top: 0;
 }
-.job-description li {
+.job-description ~ li {
   margin: 5px;
 }
 
