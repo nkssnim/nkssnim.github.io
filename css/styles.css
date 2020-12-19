@@ -11,15 +11,18 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
-h1, h2 {
-  font-family: 'Caveat', cursive;
+h1,
+h2 {
+  font-family: "Caveat", cursive;
   font-weight: 400;
 }
 h1 {
@@ -33,12 +36,19 @@ h3 {
   font-size: 1.25rem;
   margin: 0;
 }
+h4{
+  font-size: 1rem;
+}
+h5 {
+  font-size: 1rem;
+  margin: 5px;
+}
 a {
-  color: #EF233C;
+  color: #ef233c;
 }
 a:hover {
   text-decoration: none;
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 #about a:hover {
   text-decoration: none;
@@ -58,26 +68,27 @@ a:hover {
 /* Download button */
 .btn {
   text-decoration: none;
-  background: #EF233C;
+  background: #ef233c;
   color: white;
   padding: 10px;
   display: inline-block;
 }
 
-
 /* Header and Footer
 -------------------------*/
-header, footer {
-  background: #2B2D42;
-  color: #8D99AE;
+header,
+footer {
+  background: #2b2d42;
+  color: #8d99ae;
 }
 /* header */
 header {
   padding-top: 50px;
   position: relative;
 }
-header h1, header h2 {
-  color: #EDF2F4;
+header h1,
+header h2 {
+  color: #edf2f4;
   margin: 0;
 }
 .profile-img {
@@ -98,7 +109,6 @@ footer {
   display: inline-block;
 }
 
-
 /* Navigation
 -------------------------*/
 nav {
@@ -117,11 +127,10 @@ nav a {
   font-weight: 700;
 }
 
-
 /* Work Experience
 -------------------------*/
 .work {
-  background: #EDF2F4;
+  background: #edf2f4;
 }
 
 h3 ~ p {
@@ -137,11 +146,13 @@ h3 ~ p {
   line-height: 1.5;
 }
 
-
 /* Education
 -------------------------*/
 .education {
-  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5));
+  background: linear-gradient(
+    rgba(141, 153, 174, 0.8),
+    rgba(141, 153, 174, 0.5)
+  );
   background-size: contain;
 }
 p + h3 {
@@ -151,7 +162,10 @@ p + h3 {
 /* Project Experience
 -------------------------*/
 .projects {
-  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(138, 119, 76, 0.5));
+  background: linear-gradient(
+    rgba(141, 153, 174, 0.8),
+    rgba(138, 119, 76, 0.5)
+  );
 }
 h3 ~ p {
   margin: 0;
@@ -162,7 +176,7 @@ h3 ~ p {
   line-height: 1.5;
 }
 .project-description a {
-  color:#f5e642
+  color: #f5e642;
 }
 .project-description p:first-of-type {
   margin-top: 0;
@@ -172,7 +186,10 @@ h3 ~ p {
 -------------------------*/
 
 .interests {
-  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(138, 119, 76, 0.5));
+  background: linear-gradient(
+    rgba(141, 153, 174, 0.8),
+    rgba(138, 119, 76, 0.5)
+  );
 }
 
 .interests-description li {
@@ -194,11 +211,21 @@ h3 ~ p {
     line-height: 1.5;
   }
 }
-@media (max-width: 899px){
+@media (max-width: 899px) {
   header {
     text-align: center;
   }
   .profile-img {
     width: 200px;
+  }
+}
+@media (min-width: 700px) {
+  .grid-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-list li {
+    padding-right: 20px;
   }
 }
