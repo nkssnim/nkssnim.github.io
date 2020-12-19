@@ -37,6 +37,7 @@ a {
 }
 a:hover {
   text-decoration: none;
+  color: #EAF6F6
 }
 .content-wrap {
   max-width: 950px;
