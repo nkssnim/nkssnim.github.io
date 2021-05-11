@@ -23,8 +23,7 @@ email: faezshahlan@gmail.com
 description: Blog of Faez Shahlan, 3rd year EE student at NUS
 baseurl: /blog # the subpath of your site, e.g. /blog
 url: https://faezs.com # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  nkssnim
 
 # Build settings
 theme: minima
