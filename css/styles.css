@@ -158,6 +158,10 @@ h3 ~ p {
 p + h3 {
   margin-top: 30px;
 }
+li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 /* Project Experience
 -------------------------*/
